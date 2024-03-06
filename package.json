@@ -1,0 +1,19 @@
+{
+  "name": "rentzila",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/cli": "^8.32.4",
+    "@wdio/local-runner": "^8.32.4",
+    "@wdio/mocha-framework": "^8.32.4",
+    "@wdio/spec-reporter": "^8.32.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "wdio-timeline-reporter": "^5.1.4"
+  }
+}
